@@ -148,15 +148,8 @@
       later(() => { state('ready'); done && done(); }, 2500);
     }
 
-    function powerCut(done) {
-      clearTimers();
-      $$('.label').forEach((b) => b.setAttribute('aria-pressed', 'false'));
-      state('off');
-      later(() => boot(done), reduceMotion ? 0 : 1300);
-    }
-
     return {
-      scan, boot, powerCut, ready,
+      scan, boot, ready,
       get booted() { return booted; },
       relabel: () => { if (!['off', 'booting'].includes(box.dataset.state)) paint(); },
     };
@@ -213,13 +206,6 @@
       e.preventDefault();
       finalize();
     }
-  });
-
-  /* power cut: the reason the kiosk boots straight to this screen */
-  const power = $('#power');
-  power.addEventListener('click', () => {
-    power.disabled = true;
-    kiosk.powerCut(() => { power.disabled = false; });
   });
 
   /* ------------------------------------------------------------ hero peek */
