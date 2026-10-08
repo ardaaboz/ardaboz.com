@@ -34,6 +34,9 @@ window.I18N_TR = {
   "ky.d": "Kasa için sade bir yazdırma aracı. Fotoğraf, PDF ve Office belgelerini tek seferde, gerektiğinde bir yaprağa birden fazla sayfa yerleştirerek yazdırıyor.",
 
   "pr.title": "Diğer projeler",
+  "settle.m": "Android oyunu, yakında Google Play'de",
+  "settle.d": "Sakin bir eğme bulmacası: kaydırıp dünyayı eğiyorsunuz, serbest olan her şey aynı anda kayıyor. Elle yapılmış 235 seviye, her biri yayımlanmadan önce bir çözücüyle çözülebildiği kanıtlanmış; müzik her bölümün tonunda canlı besteleniyor ve hiçbir veri toplanmıyor.",
+  "settle.link": "İlk seviyeleri oynayın",
   "evn.name": "Ev Nöbetçisi",
   "evn.d": "Belgrad'daki üç kiralık ilan sitesini beş dakikada bir tarayan, yeni daireleri puanlayıp en uygunlarını Telegram'a gönderen bir bot.",
   "evn.aria": "Uydurma ilanlarla yeniden oluşturulmuş Telegram mesajları",
